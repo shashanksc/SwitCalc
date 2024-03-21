@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwitCalc</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="calculator">
+  <div class="headtit"><h3>SwitCalc</h3><button class="add-dummy" id="addDummy">...</button> <!-- Button to add dummy buttons -->
+  </div>
+  
+  <div class="display-container">
+    <input type="text" id="display" placeholder="SwitCalc" class="display" disabled>
+    <span class="cursor"></span> <!-- Cursor span element -->
+  </div>
+  <div class="display-container2">
+    <input type="text" id="display2" placeholder="Answer" class="display2" disabled>
+    </div>
+  <div class="buttons">
+    <button class="button clear" id="buttonClear">C</button>
+    <button class="button operator" id="buttonPercent">%</button> <!-- Added % button -->
+    <button class="button" id="buttonDelete">DEL</button>
+    <button class="button operator" id="/">/</button>
+    <button class="button" id="button7">7</button>
+    <button class="button" id="button8">8</button>
+    <button class="button" id="button9">9</button>
+    <button class="button operator" id="x">x</button>
+    <button class="button" id="button4">4</button>
+    <button class="button" id="button5">5</button>
+    <button class="button" id="button6">6</button>
+    <button class="button operator" id="-">-</button>
+    <button class="button" id="button1">1</button>
+    <button class="button" id="button2">2</button>
+    <button class="button" id="button3">3</button>
+    <button class="button operator" id="+">+</button>
+    <button class="button" id="button0">0</button>
+    <button class="button" id="buttonDoubleZero">00</button> <!-- Added 00 button -->
+    <button class="button" id="buttonDecimal">.</button>
+    <button class="button equal" id="buttonEquals">=</button>
+    
+  </div>
+</div>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>
